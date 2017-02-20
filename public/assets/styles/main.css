@@ -1,12 +1,17 @@
 .main {
-  background-color: #eabdff;
+  background-color: #f1d6ff;
+  padding-top: 55px;
 }
 
  #amanda {
   color: #4c00a3;
   font-family: 'Pacifico', cursive;
   font-size: 35px;
-  padding-left: 20px;
+}
+
+#amanda:hover {
+ color: #f1d6ff;
+ text-shadow: 1px 1px #4c00a3;
 }
 
 /************** NAV BAR **************/
@@ -15,6 +20,17 @@
   height: 60px;
 }
 
+.om {
+  height: 25px;
+}
+
+.main .navbar-default .navbar-toggle {
+  border: 2px solid;
+  border-color: #4c00a3;
+}
+.main .navbar-default .navbar-toggle:hover {
+  background-color: #f1d6ff;
+}
 #amanda-nav {
   margin-bottom: 0px;
 }
@@ -22,6 +38,12 @@
 #amanda-nav-left>li>a, #amanda-nav-right>li>a {
   color: #4c00a3;
   height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+
 }
 
 #amanda-nav-left>li>a:hover, #amanda-nav-right>li>a:hover {
@@ -30,10 +52,6 @@
 
 .collapse {
   background: #fff;
-}
-
-#amanda-nav .container-fluid {
-  padding: 0;
 }
 
 /************** COVER PHOTO **************/
@@ -47,4 +65,14 @@
   margin: #000;
 }
 
-/************** WORKOUT OF DAY **************/
+/************** LOGOS **************/
+
+.logos {
+  height: 50px;
+}
+
+.information {
+  margin: 20px auto;
+  display: flex;
+
+}

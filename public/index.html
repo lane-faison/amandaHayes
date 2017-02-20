@@ -18,6 +18,8 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- END OF BOOTSTRAP -->
+    <!-- TABLE TOP -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
 
     <!-- JavaScript -->
     <script src="./assets/scripts/index.js" rel="text/javascript"></script>
@@ -27,7 +29,7 @@
 
   </head>
   <body class="main">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" id="amanda-nav">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -37,36 +39,38 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" id="amanda" href="#">Amanda Hayes</a>
+          <a class="navbar-brand" id="amanda" href="index.html">Amanda Hayes</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Link</a></li>
+          <ul class="nav navbar-nav" id="amanda-nav-left">
+            <li><a href="#">Yoga</a></li>
+            <li><a href="#">Wedding</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Corepower Yoga</a></li>
               </ul>
             </li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Link</a></li>
+          <ul class="nav navbar-nav navbar-right" id="amanda-nav-right">
+            <li><a href="#">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    <div class="main-img">
-      <img src="./assets/images/amanda01.jpg" alt="amanda yoga">
+    <div class="row">
+      <div class="cover">
+        <img src="./assets/images/amanda01.jpg" alt="amanda yoga">
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-10 workout-of-day">
+        <p>Workout</p>
+      </div>
+      <div class="col-md-1"></div>
     </div>
-
   </body>
 </html>

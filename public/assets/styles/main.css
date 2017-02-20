@@ -6,18 +6,45 @@
   color: #4c00a3;
   font-family: 'Pacifico', cursive;
   font-size: 35px;
+  padding-left: 20px;
 }
+
+/************** NAV BAR **************/
 
 .navbar {
   height: 60px;
+}
+
+#amanda-nav {
   margin-bottom: 0px;
 }
 
-.main-img {
+#amanda-nav-left>li>a, #amanda-nav-right>li>a {
+  color: #4c00a3;
+  height: 60px;
+}
+
+#amanda-nav-left>li>a:hover, #amanda-nav-right>li>a:hover {
+  background: #eabdff;
+}
+
+.collapse {
+  background: #fff;
+}
+
+#amanda-nav .container-fluid {
+  padding: 0;
+}
+
+/************** COVER PHOTO **************/
+.cover {
   background: #000;
 }
-.main-img img {
+
+.cover img {
   width: 80%;
   margin: 0 10%;
   margin: #000;
 }
+
+/************** WORKOUT OF DAY **************/
